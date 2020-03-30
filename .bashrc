@@ -40,4 +40,4 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 
-source ~/.local/config/z/z.sh
+source z.sh
