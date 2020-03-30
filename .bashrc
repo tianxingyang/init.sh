@@ -8,6 +8,10 @@ else
     fi
 fi
 
+if [ "$TERM" == "xterm" ]; then
+    export TERM=xterm-256color
+fi
+
 if [ -n "$BASH_VERSION" ]; then
     export PS1='\[\e[38;5;135m\]\u\[\e[0m\]@\[\e[38;5;166m\]\h\[\e[0m\] \[\e[38;5;118m\]\w\[\e[0m\] \$ '
 else
