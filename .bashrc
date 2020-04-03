@@ -45,3 +45,5 @@ alias cp='cp -i'
 alias mv='mv -i'
 
 source ~/.local/config/z.sh
+ulimit -c unlimited
+
